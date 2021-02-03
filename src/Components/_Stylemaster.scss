@@ -1,0 +1,72 @@
+$my-cream: #eff0d1;
+$my-black: #191516;
+$main-color: #0acdff;
+$second-color: #ff9fb2;
+$third-color: #54457f;
+
+@mixin Kawaii-button-main {
+  background: $main-color;
+  border-radius: 5px;
+  border: 1px solid $my-black;
+  display: inline-block;
+  cursor: pointer;
+  color: $my-cream;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px $my-black;
+}
+
+@mixin Kawaii-button-second {
+  background: $second-color;
+  border-radius: 5px;
+  border: 1px solid $my-black;
+  display: inline-block;
+  cursor: pointer;
+  color: $my-cream;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px $my-black;
+}
+
+@mixin Kawaii-Textbox-second {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: $second-color;
+  color: $my-cream;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px $my-black;
+}
+
+@mixin Kawaii-Textbox-main {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: $main-color;
+  color: $my-cream;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px $my-black;
+}
+
+@mixin Kawaii-Hover-second() {
+  background-color: $second-color;
+}
+
+@mixin Kawaii-Hover-cream() {
+  background-color: $my-cream;
+}
+
+@mixin Kawaii-Hover-main() {
+  background-color: $main-color;
+}
+
+@mixin Kawaii-Klick {
+  position: relative;
+  top: 1px;
+}

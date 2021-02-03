@@ -1,0 +1,71 @@
+@import "../Stylemaster";
+
+.login {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin: 3px;
+
+  background-color: $my-cream;
+  height: 99vh;
+  width: 99.5vw;
+}
+
+.login-cluster {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  width: 450px;
+}
+
+.title {
+  color: $second-color;
+  font-size: 7rem;
+  margin: 0px;
+}
+
+.register-btn {
+  @include Kawaii-button-main();
+}
+
+.login-btn {
+  @include Kawaii-button-main();
+}
+
+.register-btn:hover {
+  @include Kawaii-Hover-second();
+}
+
+.login-btn:hover {
+  @include Kawaii-Hover-second();
+}
+
+.register-btn:active {
+  @include Kawaii-Klick;
+}
+
+.login-btn:active {
+  @include Kawaii-Klick;
+}
+
+.username-input {
+  @include Kawaii-Textbox-second();
+}
+
+.password-input {
+  @include Kawaii-Textbox-second();
+  size: 50%;
+}
+
+.login-btns {
+  display: flex;
+  flex-direction: table-column;
+  justify-content: space-between;
+  width: 30%;
+}

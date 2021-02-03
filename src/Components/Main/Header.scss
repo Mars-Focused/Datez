@@ -1,0 +1,28 @@
+@import "../Stylemaster";
+
+.login_btn {
+  @include Kawaii-button-second();
+}
+
+.login_btn:hover {
+  @include Kawaii-Hover-cream();
+}
+
+.login_btn:active {
+  @include Kawaii-Klick();
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: $main-color;
+}
+
+.login_name {
+  color: $my-cream;
+  margin: auto;
+}

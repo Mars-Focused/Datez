@@ -1,0 +1,17 @@
+.comp_name {
+  padding: 10px;
+  width: 100px;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+.comp_click {
+  width: 100px;
+}

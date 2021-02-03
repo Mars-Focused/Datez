@@ -1,0 +1,1 @@
+SELECT id FROM datez_users WHERE username = $1

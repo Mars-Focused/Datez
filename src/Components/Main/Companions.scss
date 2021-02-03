@@ -1,0 +1,13 @@
+@import "../Stylemaster";
+
+.companion_list {
+  height: 90vh;
+  width: 150px;
+  background-color: $second-color;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
+}
